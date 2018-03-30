@@ -1,1 +1,22 @@
 
+# Machine Learning on the Philadelphia Housing Data
+
+### Introduction
+A machine learning student dealing with housing data may already be familiar with the Boston Housing Data and the Ames (Iowa) 
+Housing Data. Hence, instead of these familiar datasets, I am going to work on the Philadelphia Housing Dataset to predict
+house prices using machine learning algorithms (Ridge, Lasso, Random Forests, XGBoost and Neural Networks). From whatwoI know,
+there is no comprehensive data analysis and machine learning work done of this Philadelphia dataset, so the analysis below may
+not only be useful as an exercise in learning basic data analysis and machine learning techniques, but also to get a glimpse of
+the real estate in Philadelphia - the first capital of the United States!
+
+The work is organized in the following way:
+I. We shall download the data and briefly try to understand the features in the dataset
+II. Pre-process the data to better suite the needs of the machine learning algorithms
+III. Use the various algorithms to learn on the dataset and find the best algorithm to make the prediction
+
+
+## I. The Philadelphia Housing Dataset:
+The dataset in the comma-separated-values (csv) format can be found [here](https://beta.phila.gov/property/data/?resource=csv).
+Note: This 'opa_properties_public' csv dataset is a very large file!
+Once you store in a proper folder, we are good to go...
+
