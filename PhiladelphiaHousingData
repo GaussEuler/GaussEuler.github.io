@@ -16,12 +16,24 @@ III. Use the various algorithms to learn on the dataset and find the best algori
 
 Before proceeding to the actual work, I would especially like to thank Dr. Andreas Mueller [@amueller] - his book "Introduction
 to Machine Learning with Python" helped me learn and understand Scikit-Learn Machine Learning algorithms and techniques. 
-I also learned from Kaggle, especially the tutorials on machine learning on housing data:
+I also learned from Kaggle, especially the four tutorials on machine learning on housing data:
 [Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques#tutorials)
 
-## I. The Philadelphia Housing Dataset:
+## I. The Philadelphia Housing Dataset: Understanding the features
 The dataset in the comma-separated-values (csv) format can be found [here](https://beta.phila.gov/property/data/?resource=csv).
 Note: This 'opa_properties_public' csv dataset is a very large file!
 Once you store in a proper folder, we are good to go...
 
-First, we import the libraries
+First, we import the basic libraries:
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt # our default library for making plots
+import seaborn as sns # we shall use seaborn sometimes to make some pretty plots
+import pickle # to save the DataFrame
+
+### I-1. Importing the Philadelphia Housing Data (opa_properties_public) saved in my computer:
+
+all_data = pd.read_csv(r'C:\Users\...\opa_properties_public.csv')
+Note: Substitute the three dots (...) with appropriate address from your computer.
+
+
