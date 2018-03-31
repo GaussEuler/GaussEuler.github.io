@@ -1,5 +1,5 @@
 
-# Machine Learning on the Philadelphia Housing Data
+# Machine Learning on the Philadelphia Housing Data using Python
 
 ### Introduction
 A machine learning student dealing with housing data may already be familiar with the Boston Housing Data and the Ames (Iowa) 
@@ -14,9 +14,14 @@ I. We shall download the data and briefly try to understand the features in the 
 II. Pre-process the data to better suite the needs of the machine learning algorithms
 III. Use the various algorithms to learn on the dataset and find the best algorithm to make the prediction
 
+Before proceeding to the actual work, I would especially like to thank Dr. Andreas Mueller [@amueller] - his book "Introduction
+to Machine Learning with Python" helped me learn and understand Scikit-Learn Machine Learning algorithms and techniques. 
+I also learned from Kaggle, especially the tutorials on machine learning on housing data:
+[Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques#tutorials)
 
 ## I. The Philadelphia Housing Dataset:
 The dataset in the comma-separated-values (csv) format can be found [here](https://beta.phila.gov/property/data/?resource=csv).
 Note: This 'opa_properties_public' csv dataset is a very large file!
 Once you store in a proper folder, we are good to go...
 
+First, we import the libraries
